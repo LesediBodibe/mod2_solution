@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Oxygen Mono", monospace;
+    font-weight: 400;
+      
+}
+
+h1{
+    text-align: center;
+    margin: 30px;
+    text-transform: capitalize;
+}
+
+section{
+    width: 400px;
+    height: auto;
+    background-color: grey;
+    margin: 5px;
+    border: 2px solid;
+    position: relative;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+section div{
+    width: 100px;
+    background-color: palevioletred;
+    height: 35px;
+    border: 2px solid;
+    border-top: none;
+    position: absolute;
+    right: 0;
+    border-right: none;
+}
+
+p{
+    padding: 40px;
+    font-weight: bolder;
+
+}
+
+h5{
+    text-align: center;
+}
+
+.yellow{
+    background-color: rgb(223, 223, 59);
+}
+.maroon{
+    background-color: rgb(204, 49, 49);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
